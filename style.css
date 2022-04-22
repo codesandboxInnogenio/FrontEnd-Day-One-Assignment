@@ -17,6 +17,9 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+
+  background-image: url("/resources/Strokeleft.svg");
+  background-repeat: no-repeat, repeat;
 }
 
 .forms {
@@ -127,4 +130,10 @@ body {
   width: 15vw;
   display: flex;
   justify-content: space-between;
+}
+
+.strokeRight {
+  position: absolute;
+  top: 0rem;
+  right: 0;
 }
