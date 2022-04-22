@@ -1,6 +1,7 @@
 body {
   margin: 0%;
   height: 100vh;
+  font-family: "Montserrat", sans-serif;
 }
 .CompleteLayout {
   height: 100vh;
@@ -20,6 +21,7 @@ body {
 
 .forms {
   width: 35%;
+  font-size: 0.78rem;
 }
 
 .alreadyAuser {
@@ -105,8 +107,8 @@ body {
 }
 
 .image {
-  width: 55%;
-  margin-top: 4rem;
+  width: 50%;
+  padding-top: 20%;
 }
 
 .followUs {
