@@ -16,7 +16,46 @@
   </head>
   <body>
     <div class="CompleteLayout">
-      <div class="leftContainer">g</div>
+        <div class="leftContainer">
+            <div class="forms">
+                <div class="title">Let's get you started</div>
+                <div class="label fullname">Full Name</div>
+                <div><input type="text"  name="fullname" placeholder="John Doe"  ></div>
+    
+                <div class="label email">Email address</div>
+                <div><input type="email"  name="email" placeholder="yourname@email.com"></div>
+    
+                <div class="label number">Phone number</div>
+                <div><input type="number"   name="number"placeholder="00000011111" ></div>
+    
+                <div class="label password">Create Password</div>
+                <div><input type="password"   name="password" placeholder="********" ></div>
+    
+                <div class="label Location">Location  (optional)</div>
+                <div>
+                  <select>
+                    <option value="Spain">Spain</option>
+                    <option value="England">England</option>
+                    <option value="India">India</option>
+                  </select>  
+                </div>
+    
+                <div for="radioIdMale" class=gender>
+                  <input type="radio" name="male" id="radioMale" >
+                  <div class="radio-circle"></div> Male
+          
+                  <input type="radio" name="male"  id="radioMale">
+                  <div class="radio-circle"></div>Female
+                </div>
+    
+                <div class="button">
+                  <button>Sign Up</button>
+                </div>
+            </div>    
+          <div class="alreadyAuser">Already a user?<span id="login">Login<span></div>
+          <div class="InnoGenio">InnoGenio</div>
+              
+        </div>
       <div class="rightContainer">
         <div class="image">
           <img src="resources/avatar.svg" alt="avatar" width="100%" />

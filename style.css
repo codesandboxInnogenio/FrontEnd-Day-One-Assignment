@@ -9,7 +9,87 @@ body {
 
 .leftContainer {
   width: 55vw;
-  background-color: blueviolet;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.forms {
+  width: 35%;
+}
+
+.alreadyAuser {
+  color: #c4c4c4;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+#login {
+  color: #476d73;
+}
+
+.InnoGenio {
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+
+  font-size: 1.5rem;
+  background-color: linear-gradient(
+    130deg,
+    #496f74 100%,
+    #6e9195 40%,
+    #2d4f61 80%
+  );
+}
+
+.title {
+  padding: 0.7rem 0rem 0rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.forms input,
+.forms select,
+.forms button {
+  width: 100%;
+  padding: 0.5rem 0rem;
+
+  border: 1px solid #c4c4c4;
+  border-radius: 0.19rem;
+  filter: drop-shadow(1px 1px 2px #c4c4c4);
+
+  text-indent: 0.6rem;
+  color: #c4c4c4;
+  font-size: 0.8rem;
+}
+
+.forms button {
+  border: none;
+  background: #284a5e;
+  color: white;
+  border-radius: 0.19rem;
+  font-weight: 600;
+  margin: 1.2rem 0rem;
+}
+
+.label {
+  margin: 1.4rem 0rem 0.4rem;
+}
+
+.gender {
+  display: inline-flex;
+  padding: 0.8em 0em;
+}
+
+.radio-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
 
 .rightContainer {
