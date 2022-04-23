@@ -1,0 +1,163 @@
+body {
+  margin: 0%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+.CompleteLayout {
+  height: 100vh;
+  display: flex;
+}
+
+.leftContainer {
+  width: 55vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url("/resources/Strokeleft.svg");
+  background-repeat: no-repeat;
+  background-size: 30rem 30rem;
+}
+
+.forms {
+  width: 35%;
+  font-size: 0.78rem;
+}
+
+.alreadyAuser {
+  color: #c4c4c4;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+#login {
+  color: #476d73;
+}
+
+.InnoGenio {
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+
+  font-size: 1.5rem;
+  background-color: linear-gradient(
+    130deg,
+    #496f74 100%,
+    #6e9195 40%,
+    #2d4f61 80%
+  );
+}
+
+.title {
+  padding: 0.7rem 0rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.forms input,
+.forms select,
+.forms button {
+  width: 100%;
+  padding: 0.5rem 0rem;
+
+  border: 1px solid #c4c4c4;
+  border-radius: 0.19rem;
+  filter: drop-shadow(1px 1px 2px #c4c4c4);
+
+  text-indent: 0.6rem;
+  color: #c4c4c4;
+  font-size: 0.8rem;
+}
+
+.forms button {
+  border: none;
+  background: #284a5e;
+  color: white;
+  border-radius: 0.19rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+#optional {
+  font-size: 0.8em;
+  color: #c4c4c4;
+}
+
+.label {
+  margin: 1.4rem 0rem 0.4rem;
+}
+
+.gender {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 2em 0em;
+}
+
+.radio {
+  display: flex;
+}
+
+.radioMale {
+  width: 20px !important;
+}
+
+.radioLabel {
+  font-size: 14px;
+}
+
+.rightContainer {
+  width: 45vw;
+  height: 100vh;
+  background: linear-gradient(126deg, #517879 0%, #1e3e57 80%);
+}
+.img-back {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url(/resources/StrokeRight.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+}
+
+.media {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.image {
+  width: 50%;
+}
+
+.followUs {
+  color: #c4c4c4;
+  padding: 1rem 0rem;
+  text-align: center;
+}
+
+.flag {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.icons {
+  width: 15vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.strokeRight {
+  position: absolute;
+  top: 0rem;
+  right: 0;
+}
