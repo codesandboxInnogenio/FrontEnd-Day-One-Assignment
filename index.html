@@ -1,84 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Static Template</title>
+    <title>css -media query</title>
+    <link href="style.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
   </head>
+
   <body>
-    <div class="CompleteLayout">
-        <div class="leftContainer">
-            <div class="forms">
-                <div class="title">Let's get you started</div>
-                <div class="label fullname">Full Name</div>
-                <div>
-                  <input type="text"  name="fullname" placeholder="John Doe"  >
-                </div>
-                <div class="label email">Email address</div>
-                <div><input type="email"  name="email" placeholder="yourname@email.com"></div>
-                <div class="label number">Phone number</div>
-                <div><input type="number"   name="number"placeholder="00000011111" ></div>
-                <div class="label password">Create Password</div>
-                <div><input type="password"   name="password" placeholder="********" ></div>
-                <div class="label Location">Location  <span id="optional">(optional)</span></div>
-                <div>
-                  <select>
-                    <option selected disabled hidden>Select an Option</option>
-                    <option value="Spain">Spain</option>
-                    <option value="England">England</option>
-                    <option value="India">India</option>
-                  </select>  
-                </div>
-                <div for="radioIdMale" class=gender>
-                  <div class="radio">
-                   <input  label="Male" type="radio" name="male" class="radioMale" >
-                   <div class="radioLabel">Male</div>
-                  </div> 
-          
-                  <div class="radio">
-                    <input type="radio" name="male"  class="radioMale">
-                   <div class="radioLabel">Female</div>
-                  </div> 
-                </div>
-                <div class="button">
-                  <button>Sign Up</button>
-                </div>
-            </div>    
-          <div class="alreadyAuser">Already a user?<span id="login">Login<span></div>
-          <div class="InnoGenio">InnoGenio</div>    
+    <div class="completeLayout">
+      <div class="left">
+        <div class="InnoGenio">InnoGenio</div>
+        <div class="forms">
+          <div class="title">Let's get you started</div>
+          <div class="login">
+            <div class="label fullName">Full Name</div>
+            <input
+              type="text"
+              class="input"
+              name="Full Name"
+              placeholder="John Doe"
+            />
+          </div>
+          <div class="login">
+            <div class="label email">Email Address</div>
+            <input
+              type="email"
+              class="input"
+              name="Email"
+              placeholder="yourname@email.com"
+            />
+          </div>
+          <div class="login">
+            <div class="label phonenumber">Phone Number</div>
+            <input
+              type="number"
+              class="input"
+              name="Phone Number"
+              placeholder="00000011111"
+            />
+          </div>
+          <div class="login">
+            <div class="label Password">Create Password</div>
+            <input type="password" class="input" name="Password" />
+          </div>
+
+          <div class="login">
+            <div class="label location">
+              Location <span id="optional">(optional)</span>
+            </div>
+            <select name="country" id="gps" class="input">
+              <option selected disabled hidden>
+                <span class="label-placeholder"> Select an Option</span></option
+              >
+              <option value="spain">Spain</option>
+              <option value="spain">England</option>
+              <option value="spain">India</option>
+            </select>
+          </div>
+          <div class="login radioInput">
+            <div class="male">
+              <div class="radio"></div>
+              <input type="radio" class="radioCircle" name="male" />Male
+            </div>
+            <div class="female">
+              <div class="radio"></div>
+              <input type="radio" class="radioCircle" name="male" />Female
+            </div>
+          </div>
+          <div class="SignUp">
+            <button>Sign Up</button>
+          </div>
+          <div class="alreadyAuser">
+            Already a user?<span id="log">Login</span>
+          </div>
         </div>
-      <div class="rightContainer">
+      </div>
+      <div class="right">
         <div class="img-back">
-        <div class="image">
-          <img src="resources/avatar.svg" alt="avatar" width="100%" />  
-        </div>
-        <div class="media">
-          <div class="followUs">Follow us on</div>
-          <div class="icons">
-            <div class="facebook">
-              <img src="/resources/fb.svg" alt="facebook" />
-            </div>
-            <div class="twitter">
-              <img src="/resources/tw.svg" alt="twitter" />
-            </div>
-            <div class="instagram">
-              <img src="/resources/instagram.svg" alt="instagram" />
-            </div>
-            <div class="linkedin">
-              <img src="/resources/linkedin.svg" alt="linkedin" />
+          <div class="flags"><img src="/resources/flagsIcon.svg" alt="" /></div>
+          <div class="images">
+            <img src="/resources/avatar.svg" alt="avatar" width="100%" />
+          </div>
+          <div class="media">
+            <div class="follow">Follow us on</div>
+            <div class="icons">
+              <div><img src="/resources/fb.svg" alt="facebook" /></div>
+              <div><img src="/resources/tw.svg/" alt="twitter" /></div>
+              <div><img src="/resources/instagram.svg" alt="instagram" /></div>
+              <div><img src="/resources/linkedin.svg" alt="linkedin" /></div>
             </div>
           </div>
         </div>
-        <div class="flag">
-          <img src="/resources/flagsIcon.svg" alt="flags" />
-        </div>
       </div>
-      </div> 
     </div>
   </body>
 </html>
